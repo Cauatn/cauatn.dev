@@ -4,12 +4,12 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ModeToggle } from "./ui/theme-toggle";
+import { ModeToggle } from "@/components/ui/theme-toggle";
 
 const NAV_ITEMS = {
-  about: "/",
+  sobre: "/",
+  experiências: "/work",
   blog: "/blog",
-  work: "/work",
 };
 
 export const Header = () => {
@@ -18,29 +18,27 @@ export const Header = () => {
   return (
     <header className="mx-auto px-0 sm:px-6 lg:px-8 w-full sm:max-w-screen-lg">
       <nav
-        className="flex flex-col fade items-center md:items-start justify-start py-8 tracking-tight w-full sm:pr-0 md:pr-6 lg:pr-0"
+        className="flex flex-col fade items-center md:items-start justify-start tracking-tight w-full sm:pr-0 md:pr-6 lg:pr-0"
         aria-label="Main navigation"
       >
         <div className="flex flex-row items-center">
-          <Link href="/">
-            <Image
-              src="/logo.svg"
+          <Link href="Cauatn.png">
+            <img
+              src="https://github.com/Cauatn.png"
               alt="Logo"
               width={40}
               height={40}
-              priority={true}
             />
-            <span className="sr-only">Onurhan Demir</span>
+            <span className="sr-only">Cauã Tavares</span>
           </Link>
 
           <div className="flex flex-col ml-4">
             <span className="text-medium inline-block font-medium">
-              Onurhan Demir
+              Cauã Tavares
             </span>
-            <span className="opacity-60">frontend engineer</span>
+            <span className="opacity-60">Desenvolvedor de Software</span>
           </div>
         </div>
-
         <div className="flex flex-row items-center justify-between sm:justify-end w-full mt-8 sm:mt-4 mb-0 sm:mb-4 tracking-tight">
           <div className="inline-flex items-center">
             {Object.entries(NAV_ITEMS).map(([name, href]) => (

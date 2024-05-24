@@ -11,17 +11,19 @@ export default function Work() {
     <Container size="large">
       <div className="prose prose-neutral dark:prose-invert text-justify">
         <p>
-          On a mission to create user interfaces that engage users and elevate
-          brands. Here&apos;s a summary of my work so far.
+          Com o objetivo de criar aplicações que engajem e facilitem interações
+          com os úsuarios e tragam resultados para os projetos que atuo, aqui
+          está um resumo do que fiz até agora.
         </p>
         <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Utilify</h2>
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">Scan.ai</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           frontend engineer, 2023 — 2024
         </p>
         <p>
-          I joined <a href="https://utilify.xyz">Utilify</a> build intuitive
-          interfaces and pages for users and brands.
+          Entrei na <a href="/">Scan.ai</a> como FullStack e atuei no
+          desenvolvimento de interfaces de usuário, incluindo páginas de marca,
+          formulários, painéis de controle da empresa.
         </p>
         <ul>
           <li>
@@ -44,6 +46,24 @@ export default function Work() {
             <a href="https://app.utilify.xyz/ucl">Campaign page</a> for the
             souvenir NFT distributed for the UCL final in partnership with
             Turkish Airlines.
+          </li>
+        </ul>
+      </div>
+      <div className="prose prose-neutral dark:prose-invert text-justify">
+        <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">Lapess</h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          estudante e pesquisador, 2023 — 2024
+        </p>
+        <p>
+          Entrei na <a href="https://utilify.xyz">Scan.ai</a> como FullStack e
+          atuei no desenvolvimento de interfaces de usuário, incluindo páginas
+          de marca, formulários, painéis de controle da empresa.
+        </p>
+        <ul>
+          <li>
+            Successfully converted wireframe designs into active working user
+            interface components.
           </li>
         </ul>
       </div>

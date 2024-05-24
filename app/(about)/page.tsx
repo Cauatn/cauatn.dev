@@ -5,28 +5,28 @@ export default function About() {
   return (
     <Container size="large">
       <p className="my-5 text-zinc-800 dark:text-zinc-200">
-        Hi, I&apos;m Onurhan.
+        Oi, eu sou Cauã Tavares.
       </p>
       <div className="prose prose-zinc dark:prose-invert text-zinc-800 dark:text-zinc-200 text-justify">
         <p>
-          As a Front-end Engineer working independently, I specialize in
-          building user interfaces for various brands. My passion lies in the
-          intersection of design and coding, which has shaped my journey into
-          front-end development.
+          Graduando em Engenharia de computação, trabalho na área de pesquisa
+          científica junto com a programação, especializado no desenvolvimento
+          de software, minha dedicação está na criação de aplicações focadas em
+          qualidade e experiências de usuário para trazer maior valor ao
+          cliente.
         </p>
         <hr />
         <p>
-          Driven by a love for software development, I thrive on receiving user
-          feedback and improving the overall user experience. It&apos;s
-          especially exciting to streamline production and focus solely on
-          building.
+          Impulsionado pelo amor a criação software, fico feliz ao receber
+          feedback dos usuários e melhorar a experiência. É gratificante
+          otimizar a soluçaão e focar no processo da construção de algo novo.
         </p>
         <p className="mb-8">
-          Outside of work, I enjoy creating minimalist digital products that
-          solve web-related challenges and simplify our development workflow.
+          Fora do trabalho, gosto de criar coisas que resolvem desafios
+          relacionados à web e simplificam o fluxo de trabalho de empresas ou
+          pessoas.
         </p>
       </div>
-
       <Social />
     </Container>
   );

@@ -10,25 +10,25 @@ import { ThemeProvider } from "./theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://onurhan.dev"),
+  metadataBase: new URL("https://cauatn.dev"),
   title: {
-    default: "Onurhan Demir",
-    template: "%s | Onurhan Demir",
+    default: "Cauã Tavares",
+    template: "%s | Cauã Tavares",
   },
   description: "Front-end Engineer",
   openGraph: {
-    title: "Onurhan Demir",
+    title: "Cauã Tavares",
     description: "Front-end Engineer",
-    url: "https://onurhan.dev",
-    siteName: "Onurhan Demir",
+    url: "https://cauatn.dev",
+    siteName: "Cauã Tavares",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://onurhan.dev/logo.svg",
+        url: "https://github.com/Cauatn.png",
         width: 1200,
         height: 630,
-        alt: "Onurhan Demir",
+        alt: "Cauã Tavares",
       },
     ],
   },
@@ -44,12 +44,8 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Onurhan Demir",
+    title: "Cauã Tavares",
     card: "summary_large_image",
-  },
-  verification: {
-    google: "K1pkJ72cY3DylswXke2MHJGxmjJ91WXwgozcCICvFrU",
-    // TODO: Add yandex verification key here
   },
 };
 
