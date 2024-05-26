@@ -5,12 +5,33 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ModeToggle } from "@/components/ui/theme-toggle";
+import IconCloud from "./magicui/icon-cloud";
 
 const NAV_ITEMS = {
   sobre: "/",
   experiências: "/work",
   blog: "/blog",
 };
+
+const slugs = [
+  "typescript",
+  "javascript",
+  "react",
+  "mongodb",
+  "nodedotjs",
+  "nextdotjs",
+  "prisma",
+  "postgresql",
+  "html5",
+  "css3",
+  "docker",
+  "git",
+  "trello",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "figma",
+];
 
 export const Header = () => {
   const pathname = usePathname();
@@ -21,22 +42,26 @@ export const Header = () => {
         className="flex flex-col fade items-center md:items-start justify-start tracking-tight w-full sm:pr-0 md:pr-6 lg:pr-0"
         aria-label="Main navigation"
       >
-        <div className="flex flex-row items-center">
-          <Link href="Cauatn.png">
-            <img
-              src="https://github.com/Cauatn.png"
-              alt="Logo"
-              width={40}
-              height={40}
-            />
-            <span className="sr-only">Cauã Tavares</span>
-          </Link>
-
-          <div className="flex flex-col ml-4">
-            <span className="text-medium inline-block font-medium">
-              Cauã Tavares
-            </span>
-            <span className="opacity-60">Desenvolvedor de Software</span>
+        <div className="flex flex-row justify-between w-full h-full">
+          <div className="flex flex-row items-center justify-center">
+            <Link href="Cauatn.png">
+              <img
+                src="https://github.com/Cauatn.png"
+                alt="Logo"
+                width={40}
+                height={40}
+              />
+              <span className="sr-only">Cauã Tavares</span>
+            </Link>
+            <div className="flex flex-col ml-4">
+              <span className="text-medium inline-block font-medium">
+                Cauã Tavares
+              </span>
+              <span className="opacity-60">Desenvolvedor de Software</span>
+            </div>
+          </div>
+          <div className="[&>*]:max-w-[30vh]">
+            <IconCloud iconSlugs={slugs} />
           </div>
         </div>
         <div className="flex flex-row items-center justify-between sm:justify-end w-full mt-8 sm:mt-4 mb-0 sm:mb-4 tracking-tight">

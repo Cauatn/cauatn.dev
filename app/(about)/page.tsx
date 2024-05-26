@@ -19,7 +19,7 @@ export default function About() {
         <p>
           Impulsionado pelo amor a criação software, fico feliz ao receber
           feedback dos usuários e melhorar a experiência. É gratificante
-          otimizar a soluçaão e focar no processo da construção de algo novo.
+          otimizar a solução e focar no processo da construção de algo novo.
         </p>
         <p className="mb-8">
           Fora do trabalho, gosto de criar coisas que resolvem desafios

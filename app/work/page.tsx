@@ -51,19 +51,31 @@ export default function Work() {
       </div>
       <div className="prose prose-neutral dark:prose-invert text-justify">
         <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Lapess</h2>
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">Scasys</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          estudante e pesquisador, 2023 — 2024
+          programador e pesquisador, 2023 — 2024
         </p>
         <p>
-          Entrei na <a href="https://utilify.xyz">Scan.ai</a> como FullStack e
-          atuei no desenvolvimento de interfaces de usuário, incluindo páginas
-          de marca, formulários, painéis de controle da empresa.
+          Entrei no projeto{" "}
+          <a href="https://github.com/Cauatn/scasys">scasys</a> atuando como
+          FullStack para o desenvolvimento de um aplicativo que auxilia nos
+          cálculos para métricas de pesquisadores e entusiastas na área da
+          química verde e ambiental ♻️.
         </p>
         <ul>
           <li>
-            Successfully converted wireframe designs into active working user
-            interface components.
+            Desenvolvi e implementei interfaces do painel de controle do
+            usuário, incluindo todas as páginas relacionadas, para interação do
+            usuário e visualização de dados.
+          </li>
+          <li>
+            Atuei construindo e constantimente modificando o banco de dados
+            atingir a finalidade do projeto.
+          </li>
+          <li>
+            Segui as tendências emergentes e das melhores práticas em front-end
+            desenvolvimento, aprimorando continuamente habilidades e explorando
+            inovações soluções para desafios técnicos.
           </li>
         </ul>
       </div>
