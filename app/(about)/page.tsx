@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Container from "@/components/shared/container";
 import Social from "@/components/social";
 
@@ -15,8 +16,9 @@ export default function About() {
           qualidade e experiências de usuário para trazer maior valor ao
           cliente.
         </p>
-        <hr />
-        <p>
+        <hr className="my-8" />
+        <Footer />
+        {/*<p>
           Impulsionado pelo amor a criação software, fico feliz ao receber
           feedback dos usuários e melhorar a experiência. É gratificante
           otimizar a solução e focar no processo da construção de algo novo.
@@ -25,7 +27,8 @@ export default function About() {
           Fora do trabalho, gosto de criar coisas que resolvem desafios
           relacionados à web e simplificam o fluxo de trabalho de empresas ou
           pessoas.
-        </p>
+     
+        </p> */}
       </div>
       <Social />
     </Container>

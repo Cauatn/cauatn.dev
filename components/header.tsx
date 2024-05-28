@@ -10,28 +10,8 @@ import IconCloud from "./magicui/icon-cloud";
 const NAV_ITEMS = {
   sobre: "/",
   experiências: "/work",
-  blog: "/blog",
+  //blog: "/blog",
 };
-
-const slugs = [
-  "typescript",
-  "javascript",
-  "react",
-  "mongodb",
-  "nodedotjs",
-  "nextdotjs",
-  "prisma",
-  "postgresql",
-  "html5",
-  "css3",
-  "docker",
-  "git",
-  "trello",
-  "github",
-  "gitlab",
-  "visualstudiocode",
-  "figma",
-];
 
 export const Header = () => {
   const pathname = usePathname();
@@ -59,9 +39,6 @@ export const Header = () => {
               </span>
               <span className="opacity-60">Desenvolvedor de Software</span>
             </div>
-          </div>
-          <div className="[&>*]:max-w-[30vh]">
-            <IconCloud iconSlugs={slugs} />
           </div>
         </div>
         <div className="flex flex-row items-center justify-between sm:justify-end w-full mt-8 sm:mt-4 mb-0 sm:mb-4 tracking-tight">
