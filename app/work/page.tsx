@@ -11,7 +11,7 @@ export default function Work() {
     <Container size="large">
       <div className="prose prose-neutral dark:prose-invert text-justify">
         <p>
-          Com o objetivo de criar aplicações que engajem e facilitem interações
+          Com o objetivo de criar aplicações que engajem, facilitem interações
           com os úsuarios e tragam resultados para os projetos que atuo, aqui
           está um resumo do que fiz até agora.
         </p>
@@ -48,8 +48,6 @@ export default function Work() {
             Turkish Airlines.
           </li>
         </ul>
-      </div>
-      <div className="prose prose-neutral dark:prose-invert text-justify">
         <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Scasys</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">

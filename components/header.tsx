@@ -6,6 +6,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ModeToggle } from "@/components/ui/theme-toggle";
 import IconCloud from "./magicui/icon-cloud";
+import IconGithub from "./shared/icons/github";
+import { Linkedin } from "lucide-react";
+import LinkedinIcon from "./shared/icons/linkedin";
 
 const NAV_ITEMS = {
   sobre: "/",
@@ -26,6 +29,7 @@ export const Header = () => {
           <div className="flex flex-row items-center justify-center">
             <Link href="Cauatn.png">
               <img
+                className="rounded-full"
                 src="https://github.com/Cauatn.png"
                 alt="Logo"
                 width={40}
@@ -39,6 +43,15 @@ export const Header = () => {
               </span>
               <span className="opacity-60">Desenvolvedor de Software</span>
             </div>
+          </div>
+          <div className="flex flex-row space-x-2 justify-center items-center">
+            <a href="https://github.com/Cauatn">
+              <IconGithub size={20} className="size-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/cauatn/" className="">
+              <LinkedinIcon />
+            </a>
+            <a href="" className=""></a>
           </div>
         </div>
         <div className="flex flex-row items-center justify-between sm:justify-end w-full mt-8 sm:mt-4 mb-0 sm:mb-4 tracking-tight">
