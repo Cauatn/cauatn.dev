@@ -1,13 +1,10 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ModeToggle } from "@/components/ui/theme-toggle";
-import IconCloud from "./magicui/icon-cloud";
 import IconGithub from "./shared/icons/github";
-import { Linkedin } from "lucide-react";
 import LinkedinIcon from "./shared/icons/linkedin";
 
 const NAV_ITEMS = {
