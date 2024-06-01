@@ -5,12 +5,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ModeToggle } from "@/components/ui/theme-toggle";
 import IconGithub from "./shared/icons/github";
-import LinkedinIcon from "./shared/icons/linkedin";
+import { Badge } from "./ui/badge";
+import LinkedIn from "./shared/icons/linkedin";
 
 const NAV_ITEMS = {
   sobre: "/",
   experiências: "/work",
   //blog: "/blog",
+  projetos: "/projects",
 };
 
 export const Header = () => {
@@ -41,14 +43,22 @@ export const Header = () => {
               <span className="opacity-60">Desenvolvedor de Software</span>
             </div>
           </div>
-          <div className="flex flex-row space-x-2 justify-center items-center">
-            <a href="https://github.com/Cauatn">
-              <IconGithub size={20} className="size-5" />
-            </a>
-            <a href="https://www.linkedin.com/in/cauatn/" className="">
-              <LinkedinIcon />
-            </a>
-            <a href="" className=""></a>
+          <div className="flex sm:flex-row space-x-2 justify-center items-end flex-col">
+            <Badge className="bg-green-100 text-green-400 flex flex-row justify-center items-center space-x-2 mb-2 sm:mb-0">
+              <div className="h-2 w-2 rounded-full bg-green-500"></div>
+              <div className="flex space-x-1 items-center justify-center">
+                <span>Disponivel </span>
+                <span className="hidden sm:block">para trabalho</span>
+              </div>
+            </Badge>
+            <div className="flex flex-row space-x-2 justify-center items-end">
+              <a href="https://github.com/Cauatn">
+                <IconGithub size={20} className="size-5" />
+              </a>
+              <a href="https://www.linkedin.com/in/cauatn/">
+                <LinkedIn />
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex flex-row items-center justify-between sm:justify-end w-full mt-8 sm:mt-4 mb-0 sm:mb-4 tracking-tight">
