@@ -1,6 +1,7 @@
 import Footer from "@/components/footer";
 import Container from "@/components/shared/container";
 import Social from "@/components/social";
+import { Badge } from "@/components/ui/badge";
 
 export default function About() {
   return (
