@@ -10,32 +10,28 @@ export default function Work() {
   return (
     <Container size="large">
       <div className="prose prose-neutral dark:prose-invert text-justify">
-        <p>
-          Com o objetivo de criar aplicações que engajem, facilitem interações
-          com os úsuarios e tragam resultados para os projetos que atuo, aqui
-          está um resumo do que fiz até agora.
-        </p>
+        <p>Aqui está uma lista de projetos que atuei até agora.</p>
         <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Scasys</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          programador e pesquisador, 2023 — 2024
+          programador e pesquisador, set. 2023 — maio. 2024
         </p>
         <p>
-          Entrei no projeto{" "}
+          Entrei no projeto
           <a href="https://github.com/Cauatn/scasys">scasys</a> atuando como
-          FullStack para o desenvolvimento de um aplicativo que auxilia nos
-          cálculos para métricas de pesquisadores e entusiastas na área da
-          química verde e ambiental ♻️.
+          FullStack para o desenvolvimento de um aplicativo que auxilia cálculos
+          para métricas de pesquisadores e entusiastas na área da química verde
+          e ambiental ♻️.
         </p>
         <ul>
           <li>
-            Desenvolvi e implementei interfaces do painel de controle do
-            usuário, incluindo todas as páginas relacionadas, para interação do
-            usuário e visualização de dados.
+            Implementei interfaces do painel de controle do usuário, incluindo
+            todas as páginas relacionadas, para interação do usuário e
+            visualização de dados.
           </li>
           <li>
-            Atuei construindo e constantimente modificando o banco de dados
-            atingir a finalidade do projeto.
+            Constantimente construindo e modificando o banco de dados atingir a
+            finalidade do projeto.
           </li>
           <li>
             Segui as tendências emergentes e das melhores práticas em front-end
@@ -49,11 +45,12 @@ export default function Work() {
           frontend engineer, 2023 — 2024
         </p>
         <p>
-          Entrei na <a href="/">Scan.ai</a> como um dos desenvolvedores que
-          atuaram na criação desse produto.
+          Entrei no projeto <a href="/">Scan.ai</a> como um dos desenvolvedores
+          e coofundadores que atuam na criação desse produto.
         </p>
         <ul>
-          <li>Construindo.</li>
+          <li>Software para o controle de produtos em vitivinícolas.</li>
+          <li>Em desenvolvimento.</li>
           {/*<li>Developed rule-based form builder for brands.</li>
           <li>
             Developed and implemented user and enterprise dashboard interface,
