@@ -17,17 +17,6 @@ export default function About() {
         </p>
         <hr className="my-8" />
         <Footer />
-        {/*<p>
-          Impulsionado pelo amor a criação software, fico feliz ao receber
-          feedback dos usuários e melhorar a experiência. É gratificante
-          otimizar a solução e focar no processo da construção de algo novo.
-        </p>
-        <p className="mb-8">
-          Fora do trabalho, gosto de criar coisas que resolvem desafios
-          relacionados à web e simplificam o fluxo de trabalho de empresas ou
-          pessoas.
-     
-        </p> */}
       </div>
       <Social />
     </Container>
