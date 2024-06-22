@@ -44,13 +44,6 @@ export const Header = () => {
             </div>
           </div>
           <div className="flex sm:flex-row space-x-2 justify-center items-end flex-col">
-            <Badge className="bg-green-100 text-green-400 flex flex-row justify-center items-center space-x-2 mb-2 sm:mb-0">
-              <div className="h-2 w-2 rounded-full bg-green-500"></div>
-              <div className="flex space-x-1 items-center justify-center">
-                <span>Disponivel </span>
-                <span className="hidden sm:block">para trabalho</span>
-              </div>
-            </Badge>
             <div className="flex flex-row space-x-2 justify-center items-end">
               <a href="https://github.com/Cauatn">
                 <IconGithub size={20} className="size-5" />
