@@ -17,7 +17,7 @@ export default function Work() {
           programador e pesquisador, set. 2023 — maio. 2024
         </p>
         <p>
-          Entrei no projeto
+          Entrei no projeto{" "}
           <a href="https://github.com/Cauatn/scasys">scasys</a> atuando como
           FullStack para o desenvolvimento de um aplicativo que auxilia cálculos
           para métricas de pesquisadores e entusiastas na área da química verde
@@ -42,7 +42,7 @@ export default function Work() {
         <hr className="my-6 border-neutral-200 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Scan.ai</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          frontend engineer, 2023 — 2024
+          Desenvolvedor Full-Stack, 2023 — 2024
         </p>
         <p>
           Entrei no projeto <a href="/">Scan.ai</a> como um dos desenvolvedores
@@ -50,24 +50,18 @@ export default function Work() {
         </p>
         <ul>
           <li>Software para o controle de produtos em vitivinícolas.</li>
-          <li>Em desenvolvimento.</li>
-          {/*<li>Developed rule-based form builder for brands.</li>
           <li>
-            Developed and implemented user and enterprise dashboard interface,
-            including all related pages, for user interaction and data
-            visualization.
+            Responsável pela construção do FrontEnd utilizando React.js e
+            Tailwind CSS.
           </li>
           <li>
-            Stayed abreast of emerging trends and best practices in front-end
-            development, continually honing skills and exploring innovative
-            solutions to technical challenges.
+            Desenvolvimento de EndPoints e integração com SpringBoot para
+            suportar as funcionalidades do software, utilizando Typescript.
           </li>
           <li>
-            Developed the{" "}
-            <a href="https://app.utilify.xyz/ucl">Campaign page</a> for the
-            souvenir NFT distributed for the UCL final in partnership with
-            Turkish Airlines.
-          </li> */}
+            Interlocução com usuários para compreensão das necessidades e
+            adaptação das soluções propostas.
+          </li>
         </ul>
       </div>
     </Container>

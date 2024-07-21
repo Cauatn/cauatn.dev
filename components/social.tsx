@@ -4,7 +4,8 @@ import IconGithub from "./shared/icons/github";
 import IconCv from "./shared/icons/cv";
 
 import Link from "next/link";
-import { Mail } from "lucide-react";
+
+import EmailToaster from "./email-toaster";
 
 function SocialButton({ href, children }: SocialButtonProps) {
   return (
@@ -24,19 +25,15 @@ function SocialButton({ href, children }: SocialButtonProps) {
 export default function Social() {
   return (
     <div className="flex flex-col gap-2 md:flex-row md:gap-2">
-      <SocialButton href="">
-        <div className="flex flex-row items-center">
-          <Mail className="size-4" />
-          <span className="ml-3">Email</span>
-        </div>
-      </SocialButton>
+      <EmailToaster />
+
       <SocialButton href="https://github.com/Cauatn">
         <div className="flex flex-row items-center">
           <IconGithub />
           <span className="ml-3">Github</span>
         </div>
       </SocialButton>
-      <SocialButton href="">
+      <SocialButton href="https://docs.google.com/document/d/1z2Wcs_cf3PjPnBNuNgpObWZu-xawPchVPuSIdLiHK4M/edit?usp=sharing">
         <div className="flex flex-row items-center">
           <IconCv />
           <span className="ml-3">Curriculo</span>

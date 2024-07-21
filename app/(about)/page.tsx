@@ -11,7 +11,7 @@ export default function About() {
       <div className="prose prose-zinc dark:prose-invert text-zinc-800 dark:text-zinc-200 text-justify">
         <p>
           Graduando em Engenharia de computação, atuo com pesquisa científica
-          junto com a programação, especializado no desenvolvimento Front-End,
+          junto com a programação, especializado no desenvolvimento Full-Stack,
           me dedico na criação de aplicações focadas na experiências de usuário
           para trazer maior valor ao cliente.
         </p>
