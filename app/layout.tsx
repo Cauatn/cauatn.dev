@@ -16,10 +16,10 @@ export const metadata: Metadata = {
     default: "Cauã Tavares",
     template: "%s | Cauã Tavares",
   },
-  description: "FullStack Developer",
+
   openGraph: {
     title: "Cauã Tavares",
-    description: "FullStack Developer",
+
     url: "https://cauatn.dev",
     siteName: "Cauã Tavares",
     locale: "en_US",
