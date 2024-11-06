@@ -57,12 +57,6 @@ export default function Projects() {
             </p>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-2">
-          <AccordionTrigger className="text-base">Scasys</AccordionTrigger>
-          <AccordionContent>
-            Em breve atualizarei essa descrição.
-          </AccordionContent>
-        </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger className="text-base">
             Solar-system
